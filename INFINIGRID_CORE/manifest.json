@@ -1,0 +1,51 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "InfiniGrid \u00e2\u20ac\u201d Core Engine. No structures included. Use as a base for content packs.",
+        "name": "InfiniGrid Core",
+        "uuid": "a7f3c2e1-84d0-4b19-9c3a-1f6e2d8b5a40",
+        "version": [
+            1,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            50
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "description": "InfiniGrid Core Engine \u00e2\u20ac\u201d no structures bundled.",
+            "uuid": "b9e4d3f2-95a1-4c2a-ad4b-2a7f3e9c6b51",
+            "version": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "c0f5e4a3-a6b2-4d3b-be5c-3c8d4f0e7c62",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                0,
+                1
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.16.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0"
+        }
+    ]
+}
